@@ -6,9 +6,60 @@
 </description>
     <link>http://redbands.github.io/</link>
     <atom:link href="http://redbands.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Jun 2015 15:26:45 +0000</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2015 15:26:45 +0000</lastBuildDate>
+    <pubDate>Mon, 01 Jun 2015 15:31:13 +0000</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2015 15:31:13 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>installation instructions</title>
+        <description>&lt;h2 id=&quot;octopress-three-installation-log&quot;&gt;Octopress Three Installation Log&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create a new custom workspace on C9 and name it.&lt;/li&gt;
+  &lt;li&gt;install jekyll*&lt;/li&gt;
+  &lt;li&gt;install octopress3&lt;/li&gt;
+  &lt;li&gt;install octopress-ink*&lt;/li&gt;
+  &lt;li&gt;name new blog&lt;/li&gt;
+  &lt;li&gt;change into the directory for the new blog&lt;/li&gt;
+  &lt;li&gt;initialise the deploy setup&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Git instructions&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;initialise git: &lt;code&gt;git init&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;link to repository: &lt;code&gt;git remote add origin git@github.com:redBands/redbands.github.io.git&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;add files: &lt;code&gt;git add .&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;add commit message: &lt;code&gt;git commit -m &#39;octopress 3 install&#39;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;change branch: &lt;code&gt;git checkout -b source&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;push files: &lt;code&gt;git push -u origin source&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Carry on instructions&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;build website: bundle exec jekyll build&lt;/li&gt;
+  &lt;li&gt;deploy website: octopress deploy&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;start preview server: jekyll serve –host $IP –port $PORT –baseurl&lt;/p&gt;
+
+    &lt;p&gt;gem install jekyll
+  gem install octopress
+  gem install octopress-ink
+  octopress new volkirk
+  cd volkirk
+  octopress deploy init git git@github.com:redBands/redbands.github.io.git&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This site has install instructions for an older version: &lt;a href=&quot;http://www.chrisanthropic.com/blog/2014/installing-octopress-3-0-from-scratch/&quot;&gt;Installing Octopress3 from scratch&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2015 15:30:17 +0000</pubDate>
+        <link>http://redbands.github.io/2015/06/01/installation-instructions.html</link>
+        <guid isPermaLink="true">http://redbands.github.io/2015/06/01/installation-instructions.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Test Post</title>
